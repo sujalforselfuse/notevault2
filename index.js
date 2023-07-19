@@ -4,7 +4,7 @@ const app = express()
 require('dotenv').config();
 
 /* const connecttomongo=require('./db');//connecting to db server */
-const port = 5000
+const port = process.env.PORT || 5000
 
 
 
